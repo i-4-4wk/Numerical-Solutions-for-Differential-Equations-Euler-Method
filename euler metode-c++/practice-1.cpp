@@ -3,7 +3,7 @@
 using namespace std;
 
 void calcX(double& x, double& y, double& h, int& n);
-double clacY(double x,double h);// dy/dx = 3x
+double clacY(double x,double h);//eg: dy/dx = 3x
 
 class arg{
 public:
@@ -34,3 +34,4 @@ cout << "("<<x<<","<<y<<")\n";
     cout << "("<< x <<","<<y<<")\n";
  }
 }
+//2025/ 10 / 14
